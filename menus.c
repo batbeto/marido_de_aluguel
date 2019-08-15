@@ -44,9 +44,8 @@ void menu_Alimentacao (void){
 }
 
 void menu_sobre (void){
-  printf("Esse projeto foi feito atráves por dois alunos, Brhemme da Cunha Prudêncio e Adalberto Maia da Silva, da disciplina de programação administrada pelo professor, Flávios Gorgónio" )
-
+ //Adicionado e corrigido o nome do professor
+  printf("Esse projeto foi feito atráves por dois alunos, Brhemme da Cunha Prudêncio e Adalberto Maia da Silva, da disciplina de programação administrada pelo professor, Flávius Gorgónio" );
 
 }
-return 0;
 
