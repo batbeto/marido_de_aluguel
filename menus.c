@@ -33,7 +33,7 @@ void menu_manuCasa (void){
   printf("5 - Voltar.\n");
   
 }
-
+//Menu Cadastro.
 void menu_Cadastro (void){
   system("clear");
   printf("Digite o nome do usúario.\n");

@@ -11,11 +11,5 @@ struct usuario {
 
 void int_main (void){
 
-
-
-
-
-
-
-    
+ 
 }
