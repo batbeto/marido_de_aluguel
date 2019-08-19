@@ -2,7 +2,6 @@
 #include <code.h>
 #include <menus.h>
 
-
 int main(void) {
   int opcao;
   opcao = imp_menu();
