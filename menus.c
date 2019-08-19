@@ -7,46 +7,37 @@ void imp_menu (void) {
   system("clear");
   printf("# # # # # # SEU FINANCEIRO DOMÉSTICO # # # # # #\n\n");
   printf("1 - Contas.\n");
-  printf("2 - Alimentação.\n ");
-  printf("3 - Manutenção da casa.\n");
-  printf("4 - Sair.");
-  printf("5 - Sobre.");
+  printf("2 - Manutenção da casa.\n");
+  printf("3 - Sobre.\n");
+  printf("0 - Sair.\n");
 
 }
 
 void menu_Contas (void){
   system("clear");
-  printf("1 - Luz");
-  printf("2 - Água");
-  printf("3 - Gasolina");
-  printf("4 - Roupas");
-  printf("5 - Higiene em geral");
-  printf("6 - Produtos de Limpeza");
-  printf("7 - Telefone");
-  printf("8 - Voltar.");
+  printf("1 - Água/Energia/Telefone.\n");
+  printf("2 - Transporte.\n");
+  printf("3 - Alimentação.\n");
+  printf("4 - Vestuário.\n");
+  printf("5 - Higiene em geral.\n");
+  printf("6 - Voltar.\n");
 
 }
 
 void menu_manuCasa (void){
   system("clear");
-  printf("Móveis");
-  printf("Despesa com encanamento");
-  printf("Pintura");
-  printf("Jardinagem");
+  printf("1 - Móveis.\n");
+  printf("2 - Pintura.\n");
+  printf("3 - Jardinagem.\n");
+  printf("4 - Outros gastos.\n");
+  printf("5 - Voltar.\n");
   
 }
 
-void menu_Alimentacao (void){
-  system("clear");
-  printf("Compras.");
-  printf("Custos.");
-
-}
-
 void menu_sobre (void){
-  printf("Esse projeto foi feito atráves por dois alunos, Brhemme da Cunha Prudêncio e Adalberto Maia da Silva, da disciplina de programação administrada pelo professor, Flávios Gorgónio" )
+  printf("Esse projeto foi feito atráves por dois alunos, Brhemme da Cunha Prudêncio e Adalberto Maia da Silva, da disciplina de programação administrada pelo professor, Flávius Gorgónio" );
 
 
 }
-return 0;
+
 
