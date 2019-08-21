@@ -36,10 +36,11 @@ void menu_manuCasa (void){
 //Menu Cadastro.
 void menu_Cadastro (void){
   system("clear");
-  printf("Digite o nome do usúario.\n");
-  printf("Digite o login do usuário.\n");
-  printf("Digite a senha desejada do usuário.(Somente números)\n");
-  printf("Voltar.\n");
+  printf("1 - Digite o nome do usúario.\n");
+  printf("2 - Digite o login do usuário.\n");
+  printf("3 - Digite a senha desejada do usuário.(Somente números)\n");
+  printf("4 - Registrar Novo.\n");
+  printf("0 - Voltar.\n");
   
 }
 
