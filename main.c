@@ -14,7 +14,9 @@ int main(void) {
       case 3 : menu_sobre();
                break;
       case 4: menu_Cadastro();
-               break;         
+               break;       
+      case 5: menu_login();
+               break;           
     }
     opcao = imp_Menu();
   }
