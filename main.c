@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include <code.h>
 #include <menus.h>
+ 
+
+ int menu_login{
+      int opcao;
+    while (opcao !=0);
+      switch (opcao){
+       case 1 : login1();
+                break;
+       case 2 : senha1();
+                break;
+    }
+    return 0;
+ }
 
 int main(void) {
   int opcao;
