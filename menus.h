@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 
 //Diminuiu o tamanho do menu.
 void imp_menu (void) {

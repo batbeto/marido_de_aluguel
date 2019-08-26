@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include <code.h>
 #include <menus.h>
  
-
  int menu_login{
       int opcao;
     while (opcao !=0);
