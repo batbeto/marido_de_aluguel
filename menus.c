@@ -5,7 +5,9 @@
 int imp_menu(void) {
   int opcao;
   system("cls||clear");
-  printf("# # # # # # SEU FINANCEIRO DOMÉSTICO # # # # # #\n\n");
+  printf("# # # # # # # SIG - FINANCE # # # # # # # # # # # # # #");
+  printf("# # # # # # # SISTEMA FINÁNCEIRO DOMÉSTICO # # # # # #" );
+  printf("# # # # # # # # # # # # # # # # # # # # # # # # # # #\n\n");
   printf("1 - Contas.\n");
   printf("2 - Manutenção da casa.\n");
   printf("3 - Sobre.\n");
