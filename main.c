@@ -1,13 +1,14 @@
 #include <stdio.h>
-#include <code.h>
-#include <menus.h>
+#include <stdlib.h>
+#include "menus.h"
+ 
 
 int main(void) {
   int opcao;
   opcao = imp_menu();
-  while (opcao != 0) {
-    switch (opcao) {
-      case 1 : menu_Contas();
+  do{
+  	switch (opcao) {
+	  case 1 : menu_Contas();
                break;
       case 2 : menu_manuCasa();
                break;
@@ -15,8 +16,9 @@ int main(void) {
                break;
       case 4 : menu_relatorio();
                break;
-    }
-    opcao = imp_Menu();
   }
+  
+  }while (opcao != 0);  
+  
   return 0;
 }
