@@ -5,17 +5,19 @@
 
 int main(void) {
   int opcao;
-  opcao = imp_menu();
   do{
+    opcao = imp_menu();
   	switch (opcao) {
-	  case 1 : menu_Contas();
+	    case 1 : opcao = menu_Contas();
                break;
-      case 2 : menu_manuCasa();
+      case 2 : opcao = menu_manuCasa();
                break;
       case 3 : menu_sobre();
                break;
-      case 4 : menu_relatorio();
+      case 4 : opcao = menu_relatorio();
                break;
+      default :
+            printf("Digite um numero valido");
   }
   
   }while (opcao != 0);  
