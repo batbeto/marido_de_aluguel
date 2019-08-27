@@ -34,9 +34,16 @@ void menu_manuCasa (void){
   
 }
 
+void menu_relatorio (void){
+      system("clear");
+      printf("1 - Exibir Contas.\n");
+      printf("2 - Exibir Custos da Manutenção.\n");
+
+}
+
 void menu_sobre (void){
  //Adicionado e corrigido o nome do professor
-  printf("Esse projeto foi feito atráves por dois alunos, Brhemme da Cunha Prudêncio e Adalberto Maia da Silva, da disciplina de programação administrada pelo professor, Flávius Gorgónio" );
+  printf("Esse projeto foi feito atráves por dois alunos, Brhemme da Cunha Prudêncio e Adalberto Maia da Silva, da disciplina de programação administrada pelo professor, Flávius Gorgónio.\n" );
 
 }
 

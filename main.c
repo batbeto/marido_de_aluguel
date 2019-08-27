@@ -7,19 +7,16 @@ int main(void) {
   opcao = imp_menu();
   while (opcao != 0) {
     switch (opcao) {
-      case 1 : contas = menu_Contas();
+      case 1 : menu_Contas();
                break;
-      case 2 : manutencao = menu_manuCasa();
+      case 2 : menu_manuCasa();
                break;
       case 3 : menu_sobre();
+               break;
+      case 4 : menu_relatorio();
                break;
     }
     opcao = imp_Menu();
   }
   return 0;
-}
-
-
-
-
 }
