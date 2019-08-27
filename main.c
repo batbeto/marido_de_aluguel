@@ -16,12 +16,11 @@ int main(void) {
               break;
       case 4 : opcao = menu_relatorio();
               break;
-      default :
-              printf("Digite um numero valido");
+      default : printf("Digite um numero valido");
               break;
-
+    }
   }while (opcao != 0);
       
-  
   return 0;
 }
+
