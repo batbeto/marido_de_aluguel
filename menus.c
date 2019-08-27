@@ -2,6 +2,16 @@
 #include <stdlib.h>
 
 //Diminuiu o tamanho do menu.
+int menu_princ (void) {
+   int opcao;
+   system("cls||clear");
+   printf("1 - Cadastrar Cliente.\n");
+   printf("2 - Logar Conta.\n");
+   printf("0 - Fechar Programa.\n");
+   scanf("%d",&opcao);
+   return opcao;
+
+}
 int imp_menu(void) {
   int opcao;
   system("cls||clear");
@@ -48,7 +58,9 @@ int menu_Cadastro (void){
   printf("1 - Digite o nome do usúario.\n");
   printf("2 - Digite o login do usuário.\n");
   printf("3 - Digite a senha desejada do usuário.(Somente números)\n");
-  printf("4 - Registrar Novo.\n");
+  printf("4 - Visualizar registros.\n");
+  printf("5 - Registrar Novo.\n");
+  printf("6 - Deletar Usuário.\n");
   printf("0 - Voltar.\n");
   scanf("%d",&opcao);
   return opcao;
@@ -66,7 +78,9 @@ int menu_relatorio (void){
 void menu_sobre (void){
  //Adicionado e corrigido o nome do professor
   system("cls||clear");
-  printf("Esse projeto foi feito atráves por dois alunos, Brhemme da Cunha Prudêncio e Adalberto Maia da Silva, da disciplina de programação administrada pelo professor, Flávius Gorgónio.\n" );
+  printf("Esse projeto foi desenvolvido por Adalberto Maia da Silva.(+55 84 9709-6080) e Brhemme da Cunha Prudêncio.(+55 84 98145-8282).\n" );
+  printf("Durante o periódo letivo na UFRN - CAICÓ.\n");
+  printf("Administrada pelo professor Flávius Gorgônio.\n");
 
 }
 
