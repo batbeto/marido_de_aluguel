@@ -2,3 +2,6 @@
 #include <stdio.h>
 
 	
+struct login_cliente{
+
+}

@@ -1,6 +1,8 @@
 // Assinaturas!
 
 
+int menu_princ (void);
+
 int menu_Cadastro (void);
 
 int menu_relatorio (void);
