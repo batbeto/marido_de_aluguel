@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
 #include "menus.h"
- 
+#include <ctype.h>
+#include <locale.h>
+
 
 int main(void) {
+        setlocale(LC_ALL, "Portuguese");        
   int opcao,opcaologin;
   do{
     opcao = imp_menu();
@@ -16,8 +20,13 @@ int main(void) {
               break;
       case 4 : opcao = menu_relatorio();
               break;
-      default : printf("Digite um numero valido");
-              break;
+      case 0: break;
+
+      default : 
+                
+                printf("Digite um numero valido");
+                Sleep(300);
+              
     }
   }while (opcao != 0);
       
