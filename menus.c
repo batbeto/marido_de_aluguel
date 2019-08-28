@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
+
 
 //Diminuiu o tamanho do menu.
 int menu_princ (void) {
@@ -15,8 +17,8 @@ int menu_princ (void) {
 int imp_menu(void) {
   int opcao;
   system("cls||clear");
-  printf("# # # # # # # SIG - FINANCE # # # # # # # # # # # # # #");
-  printf("# # # # # # # SISTEMA FINÁNCEIRO DOMÉSTICO # # # # # #" );
+  printf("# # # # # # # SIG - FINANCE # # # # # # # # # # # # # #\n");
+  printf("# # # # # # # SISTEMA FINÁNCEIRO DOMÉSTICO # # # # # #\n" );
   printf("# # # # # # # # # # # # # # # # # # # # # # # # # # #\n\n");
   printf("1 - Contas.\n");
   printf("2 - Manutenção da casa.\n");
@@ -81,6 +83,7 @@ void menu_sobre (void){
   printf("Esse projeto foi desenvolvido por Adalberto Maia da Silva.(+55 84 9709-6080) e Brhemme da Cunha Prudêncio.(+55 84 98145-8282).\n" );
   printf("Durante o periódo letivo na UFRN - CAICÓ.\n");
   printf("Administrada pelo professor Flávius Gorgônio.\n");
-
+  Sleep(1000);
+  
 }
 
