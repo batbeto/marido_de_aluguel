@@ -73,7 +73,7 @@ int menu_relatorio (void){
   system("cls||clear");
   printf("1 - Exibir Contas.\n");
   printf("2 - Exibir Custos da Manutenção.\n");
-  scanf("%d",&opcao);
+  gets(opcao);
   return opcao;
 }
 
