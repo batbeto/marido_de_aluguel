@@ -77,13 +77,6 @@ int menu_relatorio (void){
   return opcao;
 }
 
-void menu_sobre (void){
- //Adicionado e corrigido o nome do professor
-  system("cls||clear");
-  printf("Esse projeto foi desenvolvido por Adalberto Maia da Silva.(+55 84 9709-6080) e Brhemme da Cunha Prudêncio.(+55 84 98145-8282).\n" );
-  printf("Durante o periódo letivo na UFRN - CAICÓ.\n");
-  printf("Administrada pelo professor Flávius Gorgônio.\n");
-  Sleep(1000);
   
 }
 
