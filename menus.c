@@ -3,12 +3,12 @@
 #include <windows.h>
 
 
-//Diminuiu o tamanho do menu.
+
 int menu_princ (void) {
    int opcao;
    system("cls||clear");
    printf("1 - Cadastrar Cliente.\n");
-   printf("2 - Logar Conta.\n");
+   printf("2 - Login.\n");
    printf("0 - Fechar Programa.\n");
    scanf("%d",&opcao);
    return opcao;
@@ -21,8 +21,7 @@ int imp_menu(void) {
   printf("# # # # # # # SISTEMA FINÁNCEIRO DOMÉSTICO # # # # # #\n" );
   printf("# # # # # # # # # # # # # # # # # # # # # # # # # # #\n\n");
   printf("1 - Contas.\n");
-  printf("2 - Manutenção da casa.\n");
-  printf("3 - Sobre.\n");
+  printf("2 - Sobre.\n");
   printf("0 - Sair.\n");
   scanf("%d",&opcao);
   return opcao;
@@ -31,28 +30,13 @@ int imp_menu(void) {
 int menu_Contas (void){
   int opcao;
   system("cls||clear");
-  printf("1 - Água/Energia/Telefone.\n");
-  printf("2 - Transporte.\n");
-  printf("3 - Alimentação.\n");
-  printf("4 - Vestuário.\n");
-  printf("5 - Higiene em geral.\n");
-  printf("6 - Voltar.\n");
+  printf("1 - Criar novo registro.\n");
+  printf("2 - Visualizar Registro.\n");
   scanf("%d",&opcao);
   return opcao;
+
 }
-//Menu Alterações, simplicações nos nomes.
-int menu_manuCasa (void){
-  int opcao;
-  system("cls||clear");
-  printf("1 - Móveis.\n");
-  printf("2 - Pintura.\n");
-  printf("3 - Jardinagem.\n");
-  printf("4 - Outros gastos.\n");
-  printf("5 - Voltar.\n");
-  scanf("%d",&opcao);
-  return opcao;
-  
-}
+
 //Menu Cadastro.
 int menu_Cadastro (void){
   int opcao;
@@ -67,12 +51,12 @@ int menu_Cadastro (void){
   scanf("%d",&opcao);
   return opcao;
 }
-
+//Menu Relatório.
 int menu_relatorio (void){
   int opcao;
   system("cls||clear");
   printf("1 - Exibir Contas.\n");
-  printf("2 - Exibir Custos da Manutenção.\n");
+  printf("2 - Exibir Relatório\n");
   scanf("%d",&opcao);
   return opcao;
 }
