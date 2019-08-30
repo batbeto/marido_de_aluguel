@@ -10,8 +10,6 @@ int menu_relatorio (void);
 
 void menu_sobre (void);
 
-int menu_manuCasa (void);
-
 int menu_Contas (void);
 
 int imp_menu (void);
