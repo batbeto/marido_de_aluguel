@@ -18,7 +18,9 @@ int main(void) {
               break;
       case 3 : menu_sobre();
               break;
-      case 4 : opcao = menu_relatorio();
+      case 4 : opcao = menu_Cadastro();
+              break;
+      case 5 : opcao = menu_relatorio();
               break;
       case 0: break;
 

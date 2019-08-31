@@ -4,6 +4,7 @@
 
 
 
+
 int menu_princ (void) {
    int opcao;
    system("cls||clear");
@@ -50,9 +51,9 @@ int menu_Cadastro (void){
      //declarar estrutura //
      struct Agenda Cadastro;      /// Cadastro é o nome da estrutura *//
 
-  Cadastro.nome;
-  Cadastro.senha;
-  Cadastro.login;
+  cadastro.nome;
+  cadastro.senha;
+  cadastro.login;
 
   int opcao=1;
     do {
@@ -60,24 +61,21 @@ int menu_Cadastro (void){
            printf("\t CADASTRAR NOVO USUÁRIO.");
            printf("\t------------------------");
            printf("\n\n\n");
-           printf("Nome do usuário: ");
+           printf("1 - Nome do usuário: ");
            fgets(cadastro.nome,30,stdin);
-           printf("Login do usuário: ");
+           printf("2 - Login do usuário: ");
            fgets(cadastro.login,5,stdin);
-           printf("Digite a Senha do usuário no máximo 12 números. (apenas números) ");
+           printf("3 - Digite a Senha do usuário no máximo 12 números. (apenas números) ");
            fgets(cadastro.senha,12,stdin);
            fflush(stdin);
-        if 
-         printf("Formato de senha incorreta!")
-    
-
-           printf("Digite "1" para Novo Cadastro ou " 0 " para sair: ");
+        
+          printf("Digite "1" para Novo Cadastro ou " 0 " para sair: ");
            scanf("%d", &opcao);
         
     }
            while (opcao==1);
 
-          return 0;
+          return opcao;
 }
 //Menu Relatório.
 int menu_relatorio (void){
