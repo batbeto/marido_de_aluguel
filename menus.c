@@ -45,12 +45,13 @@ int menu_Cadastro (void){
     {
     char nome[50];       //nome
     char senha[30];      //senha
+    char senha2         //senha
     int login;                //login do usúario//
     }
 
      //declarar estrutura //
      struct Agenda Cadastro;      /// Cadastro é o nome da estrutura *//
-
+  
   cadastro.nome;
   cadastro.senha;
   cadastro.login;
@@ -68,7 +69,8 @@ int menu_Cadastro (void){
            printf("3 - Digite a Senha do usuário no máximo 12 números. (apenas números) ");
            fgets(cadastro.senha,12,stdin);
            fflush(stdin);
-        
+           
+    
           printf("Digite "1" para Novo Cadastro ou " 0 " para sair: ");
            scanf("%d", &opcao);
         
