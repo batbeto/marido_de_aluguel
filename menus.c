@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
+#include <string.h>
 
 
 
@@ -37,19 +37,47 @@ int menu_Contas (void){
 
 }
 
-//Menu Cadastro.
 int menu_Cadastro (void){
-  int opcao;
-  system("cls||clear");
-  printf("1 - Digite o nome do usúario.\n");
-  printf("2 - Digite o login do usuário.\n");
-  printf("3 - Digite a senha desejada do usuário.(Somente números)\n");
-  printf("4 - Visualizar registros.\n");
-  printf("5 - Registrar Novo.\n");
-  printf("6 - Deletar Usuário.\n");
-  printf("0 - Voltar.\n");
-  scanf("%d",&opcao);
-  return opcao;
+
+    /*definir nome estrutura e não declarar */
+    struct Agenda
+    {
+    char nome[50];       //nome
+    char senha[30];      //senha
+    int login;                //login do usúario//
+    }
+
+     //declarar estrutura //
+     struct Agenda Cadastro;      /// Cadastro é o nome da estrutura *//
+
+  Cadastro.nome;
+  Cadastro.senha;
+  Cadastro.login;
+
+  int opcao=1;
+    do {
+           printf("\t------------------------");
+           printf("\t CADASTRAR NOVO USUÁRIO.");
+           printf("\t------------------------");
+           printf("\n\n\n");
+           printf("Nome do usuário: ");
+           fgets(cadastro.nome,30,stdin);
+           printf("Login do usuário: ");
+           fgets(cadastro.login,5,stdin);
+           printf("Digite a Senha do usuário no máximo 12 números. (apenas números) ");
+           fgets(cadastro.senha,12,stdin);
+           fflush(sdtin);
+        if 
+         printf("Formato de senha incorreta!")
+    
+
+           printf("Digite "1" para Novo Cadastro ou " 0 " para sair: ");
+           scanf("%d", &opcao);
+        
+    }
+           while (opcao==1);
+
+          return 0;
 }
 //Menu Relatório.
 int menu_relatorio (void){
