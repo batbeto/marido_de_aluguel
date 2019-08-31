@@ -66,7 +66,7 @@ int menu_Cadastro (void){
            fgets(cadastro.login,5,stdin);
            printf("Digite a Senha do usuário no máximo 12 números. (apenas números) ");
            fgets(cadastro.senha,12,stdin);
-           fflush(sdtin);
+           fflush(stdin);
         if 
          printf("Formato de senha incorreta!")
     
